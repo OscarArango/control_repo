@@ -10,6 +10,7 @@ class profile::ssh_server {
     ensure => present,
     user   => 'root',
     type   => 'ssh-rsa',
+    #Place your Key below
     key    => 'KEY_HERE',
   }  
 }
